@@ -1,5 +1,7 @@
 # Simple_logging
 
+the Python logging Module was kinda annoying at the Time I started looking to it and using it in my Python Projects. I also find that the Documentation of it in the official Website is written in Alien Language that's why I ll try here to clear some things about how it works with some best Practices and a simple Interface that I code to make it easy to use the logging file without hitting your head on the wall.
+
 A standard Logging configured Format 
 
 **Description:**
