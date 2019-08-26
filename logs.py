@@ -1,9 +1,11 @@
 import logging.config
+from os import path
+conf = path.join(path.dirname(path.abspath(__file__)), 'logging.ini')
 
-
-def create_logger(name, path='logging.ini'):
-	logging.config.fileConfig(path, disable_existing_loggers=False)
+def create_logger(name):
+	logging.config.fileConfig(conf, disable_existing_loggers=False)
 	logger = logging.getLogger(name)
 	return logger
+
 
 
